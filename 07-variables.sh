@@ -11,3 +11,5 @@ echo "pid of this script :: $$"
 sleep 100 &
 echo "pid of recently executed background process :: $!"
 echo "all args passed to script :: $*"
+echo "$@"
+echo "$*"
