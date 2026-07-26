@@ -11,4 +11,9 @@ echo "sum is : $sum"
 # array
 fruits=("apple" "banana" "mango")
 
-echo "fruits are :: ${fruits[2]}" "${fruits[0]}" 
+##### to print fruits as horizontal.......
+
+echo "fruits are :: ${fruits[0]}" "${fruits[1]}" "${fruits[2]}" 
+echo "first/ fruit is -- ${fruits[0]}"
+echo "second// fruit is -- ${fruits[1]}"
+echo "third ///fruit is -- ${fruits[2]}"
