@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUMBER=$30
+NUMBER=30
 #### -gt :- greater than.
 #### -lt :- less than.
 #### -eq :- equal.
