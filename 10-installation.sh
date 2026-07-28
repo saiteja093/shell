@@ -14,7 +14,7 @@ dnf install nginx -y
     echo "installing nginx ..... failure"
     exit 1
 else
-    echo "installing nginx ......sucess"
+    echo "installing nginx ......success"
 fi        
 
 echo "installing my sql"
@@ -24,7 +24,7 @@ if [ $? -ne 0 ]; then
     echo "installing my sql ..... failure"
     exit 1
 else
-    echo "installing my sql ......sucess"
+    echo "installing my sql ......success"
 fi        
 
 echo "installing nodejs"
@@ -34,6 +34,6 @@ if [ $? -ne 0 ]; then
     echo "installing nodejs ..... failure"
     exit 1
 else
-    echo "installing nodejs ......sucess"
+    echo "installing nodejs ......success"
 fi      
 
