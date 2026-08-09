@@ -26,8 +26,10 @@ do
   dnf list installed $package 
   if [ $? -ne 0 ]; then 
      echo "$package not installed, installing now"
-  dnf install $package -y &>> $logs_file
-  validate $? "package installation"
-  else
+     dnf install $package -y &>> $logs_file
+     validate $? "package installation"
+    else
      echo "$package alredy installed, skipping"
+    fi
+
 done
