@@ -1,6 +1,8 @@
 #!/bin/bash
 
-set -e
+set -e # ERR
+
+trap 'echo "there is an error in $lineno, command: $bash_command"' ERR
 
 echo "hellow world"
 echo "i am learning shell"
